@@ -173,8 +173,10 @@ nav a:hover {
 }
 
 .project img {
-    border-radius: 8px;
+    border-radius: 15px;
     margin-bottom: 10px;
+    width: 256px;
+    height: 256px;
 }
 
 .text-project {

@@ -1,7 +1,6 @@
-// Seleciona o visor da calculadora
 const visor = document.getElementById('display');
 
-// Seleciona todos os botões e adiciona um ouvinte de clique
+
 document.querySelectorAll('.btn').forEach(botao => {
     botao.addEventListener('click', () => {
         const acao = botao.getAttribute('aria-label');
